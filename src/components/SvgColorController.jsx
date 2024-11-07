@@ -42,17 +42,17 @@ import ThumbsUpOutline from './icon/new/thumbUpOutline';
 import IconWrapper from './IconWrapper';
 
 const SvgColorController = () => {
-  const [activeColorClass, setActiveColorClass] = useState('icon-primary');
+  const [activeColorClass, setActiveColorClass] = useState('color-primary');
   const [activeTab, setActiveTab] = useState('default');
 
   const colorClasses = [
-    { name: 'Primary', class: 'icon-primary', color: 'var(--icon-primary)' },
-    { name: 'Secondary', class: 'icon-secondary', color: 'var(--icon-secondary)' },
-    { name: 'Accent', class: 'icon-accent', color: 'var(--icon-accent)' },
-    { name: 'Success', class: 'icon-success', color: 'var(--icon-success)' },
-    { name: 'Warning', class: 'icon-warning', color: 'var(--icon-warning)' },
-    { name: 'Danger', class: 'icon-danger', color: 'var(--icon-danger)' },
-    { name: 'Muted', class: 'icon-muted', color: 'var(--icon-muted)' },
+    { name: 'Primary', class: 'color-primary', color: 'var(--color-primary)' },
+    { name: 'Secondary', class: 'color-secondary', color: 'var(--color-secondary)' },
+    { name: 'Accent', class: 'color-accent', color: 'var(--color-accent)' },
+    { name: 'Success', class: 'color-success', color: 'var(--color-success)' },
+    { name: 'Warning', class: 'color-warning', color: 'var(--color-warning)' },
+    { name: 'Danger', class: 'color-danger', color: 'var(--color-danger)' },
+    { name: 'Muted', class: 'color-muted', color: 'var(--color-muted)' },
   ];
 
   const DefaultIconSet = () => (

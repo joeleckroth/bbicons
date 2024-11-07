@@ -7,42 +7,42 @@
 
 :root {
   /* Color Variables */
-  --icon-primary: #06c;
-  --icon-secondary: #4a5568;
-  --icon-accent: #9f7aea;
-  --icon-success: #48bb78;
-  --icon-warning: #ed8936;
-  --icon-danger: #e53e3e;
-  --icon-muted: #718096;
+  --color-primary: #06c;
+  --color-secondary: #4a5568;
+  --color-accent: #9f7aea;
+  --color-success: #48bb78;
+  --color-warning: #ed8936;
+  --color-danger: #e53e3e;
+  --color-muted: #718096;
 }
 
 /* Icon color classes */
-.icon-primary {
-  color: var(--icon-primary);
+.color-primary {
+  color: var(--color-primary);
 }
 
-.icon-secondary {
-  color: var(--icon-secondary);
+.color-secondary {
+  color: var(--color-secondary);
 }
 
-.icon-accent {
-  color: var(--icon-accent);
+.color-accent {
+  color: var(--color-accent);
 }
 
-.icon-success {
-  color: var(--icon-success);
+.color-success {
+  color: var(--color-success);
 }
 
-.icon-warning {
-  color: var(--icon-warning);
+.color-warning {
+  color: var(--color-warning);
 }
 
-.icon-danger {
-  color: var(--icon-danger);
+.color-danger {
+  color: var(--color-danger);
 }
 
-.icon-muted {
-  color: var(--icon-muted);
+.color-muted {
+  color: var(--color-muted);
 }
 
 @keyframes fadeIn {
