@@ -1,8 +1,8 @@
 import React from 'react';
 
-const BubbleIcon = ({ stroke = '#000000' }) => (
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-    <g stroke={stroke} strokeWidth="1.5" fill="none" fillRule="evenodd">
+const BubbleIcon = ({ className }) => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" className={className}>
+    <g stroke="currentColor" strokeWidth="1.5" fill="none" fillRule="evenodd">
       <path d="M25 4.75c.621 0 1.184.252 1.591.659.407.407.659.97.659 1.591v13c0 .621-.252 1.184-.659 1.591-.407.407-.97.659-1.592.659l-2.379.002c-.122 1.15-.458 2.187-1.013 3.112-.326.543-.934 1.076-1.557 1.45-.197.119-.398.23-.592.315l-.123.05.091-.17c.27-.522.514-1.096.564-1.757L20 25c0-.697-.086-1.24-.234-1.638-.247-.66-.667-.992-1.16-1.112H7a2.243 2.243 0 0 1-1.591-.659A2.243 2.243 0 0 1 4.75 20V7c0-.621.252-1.184.659-1.591.407-.407.97-.659 1.591-.659Z" />
       <path strokeLinecap="round" d="M10.137 9.5H21.75m-11.613 4H21.75m-11.613 4h6.194" />
     </g>
@@ -10,8 +10,3 @@ const BubbleIcon = ({ stroke = '#000000' }) => (
 );
 
 export default BubbleIcon;
-
-
-
-
-

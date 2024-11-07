@@ -2,6 +2,49 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Add to index.css */
+
+
+:root {
+  /* Color Variables */
+  --icon-primary: #06c;
+  --icon-secondary: #4a5568;
+  --icon-accent: #9f7aea;
+  --icon-success: #48bb78;
+  --icon-warning: #ed8936;
+  --icon-danger: #e53e3e;
+  --icon-muted: #718096;
+}
+
+/* Icon color classes */
+.icon-primary {
+  color: var(--icon-primary);
+}
+
+.icon-secondary {
+  color: var(--icon-secondary);
+}
+
+.icon-accent {
+  color: var(--icon-accent);
+}
+
+.icon-success {
+  color: var(--icon-success);
+}
+
+.icon-warning {
+  color: var(--icon-warning);
+}
+
+.icon-danger {
+  color: var(--icon-danger);
+}
+
+.icon-muted {
+  color: var(--icon-muted);
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
