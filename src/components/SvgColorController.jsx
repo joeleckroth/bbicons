@@ -34,6 +34,7 @@ import UpIcon from './icon/existing/up';
 import UserIcon from './icon/existing/user';
 import CourseIcon from './icon/existing/course';
 
+
 // New Icons
 import AIIcon from './icon/new/ai';
 import ReturnIcon from './icon/new/return';
@@ -41,6 +42,7 @@ import AnnotateIcon from './icon/new/annotate';
 import BellSolid from './icon/new/bellSolid';
 import ThumbsUpSolid from './icon/new/thumbUpSolid';
 import ThumbsUpOutline from './icon/new/thumbUpOutline';
+import StopIcon from './icon/new/stop';
 
 import IconWrapper from './IconWrapper';
 
@@ -196,6 +198,9 @@ const SvgColorController = () => {
       <IconWrapper iconName="Thumbs Up Outline">
         <ThumbsUpOutline className={activeColorClass} />
       </IconWrapper>
+      <IconWrapper iconName="Stop">
+          <StopIcon className={activeColorClass} />
+        </IconWrapper>
     </div>
   );
 
@@ -365,13 +370,13 @@ const SvgColorController = () => {
         <nav className="flex -mb-px" aria-label="Tabs">
           <button
             onClick={() => setActiveTab('default')}
-            className={`w-1/3 py-4 px-1 text-center border-b-2 font-medium text-sm ${
+            className={`w-1/2 py-4 px-1 text-center border-b-2 font-medium text-sm ${
               activeTab === 'default'
                 ? 'border-blue-500 text-blue-600'
                 : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'
             }`}
           >
-            New Icon Set
+            New Icons
           </button>
           <button
             onClick={() => setActiveTab('new')}
@@ -382,16 +387,6 @@ const SvgColorController = () => {
             }`}
           >
             Existing Icons
-          </button>
-          <button
-            onClick={() => setActiveTab('buttons')}
-            className={`w-1/3 py-4 px-1 text-center border-b-2 font-medium text-sm ${
-              activeTab === 'buttons'
-                ? 'border-blue-500 text-blue-600'
-                : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'
-            }`}
-          >
-            Button Usage
           </button>
         </nav>
       </div>
